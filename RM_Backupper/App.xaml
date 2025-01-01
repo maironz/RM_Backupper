@@ -1,0 +1,26 @@
+﻿<!--
+    App.xaml
+    This is the entry point for the RM_Backupper application.
+    The application defines global resources and specifies the startup window.
+
+    File Description:
+    - Defines application-level resources like font families and styles.
+    - Sets the StartupUri to specify the initial window of the application.
+
+    Author: Massimo Ronzulli
+    Created: 31/12/2024
+-->
+<Application x:Class="RM_Backupper.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RM_Backupper"
+             StartupUri="/MainWindow.xaml">
+    <!--
+        Resources Section:
+        - Defines global resources accessible throughout the application.
+    -->
+    <Application.Resources>
+        <!-- Font resource for FontAwesome icons -->
+        <FontFamily x:Key="FontAwesome">pack://application:,,,/RM_Backupper/Resources;component/Fonts/#FontAwesome</FontFamily>
+    </Application.Resources>
+</Application>
